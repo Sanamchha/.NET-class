@@ -1,0 +1,6 @@
+c:\users\sanam\documents\visual studio 2013\Projects\site_1\site_1\bin\site_1.dll.config
+c:\users\sanam\documents\visual studio 2013\Projects\site_1\site_1\bin\site_1.dll
+c:\users\sanam\documents\visual studio 2013\Projects\site_1\site_1\bin\site_1.pdb
+c:\users\sanam\documents\visual studio 2013\Projects\site_1\site_1\obj\Debug\site_1.csprojResolveAssemblyReference.cache
+c:\users\sanam\documents\visual studio 2013\Projects\site_1\site_1\obj\Debug\site_1.dll
+c:\users\sanam\documents\visual studio 2013\Projects\site_1\site_1\obj\Debug\site_1.pdb

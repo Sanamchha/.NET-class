@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCD7953D-9870-4861-9470-7A8AC29CDBC5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>site_1</RootNamespace>
+    <AssemblyName>site_1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ADO.aspx" />
+    <Content Include="Basics.aspx" />
+    <Content Include="Console.aspx" />
+    <Content Include="image\lab\lab1.PNG" />
+    <Content Include="image\lab\lab2.PNG" />
+    <Content Include="image\lab\lab3.PNG" />
+    <Content Include="image\lab\lab4.PNG" />
+    <Content Include="image\lab\lab5.PNG" />
+    <Content Include="image\lab\lab6.PNG" />
+    <Content Include="image\OldQuestions\2019.jpg" />
+    <Content Include="image\OldQuestions\2019_a.png" />
+    <Content Include="image\OldQuestions\2015.bmp" />
+    <Content Include="image\OldQuestions\2015_Chance.jpg" />
+    <Content Include="image\OldQuestions\2016.jpg" />
+    <Content Include="image\OldQuestions\2017.jpg" />
+    <Content Include="image\OldQuestions\2017a.jpg" />
+    <Content Include="image\OldQuestions\2018.jpg" />
+    <Content Include="Lab.aspx" />
+    <Content Include="LAB\lab1.aspx" />
+    <Content Include="LAB\lab2.aspx" />
+    <Content Include="LAB\lab3.aspx" />
+    <Content Include="LAB\lab4.aspx" />
+    <Content Include="LAB\lab5.aspx" />
+    <Content Include="LAB\lab6.aspx" />
+    <Content Include="LAB\lab7.aspx" />
+    <Content Include="LAB\lab8.aspx" />
+    <Content Include="OldQuestion.aspx" />
+    <Content Include="OOP.aspx" />
+    <Content Include="Site1.Master" />
+    <Content Include="Web.aspx" />
+    <Content Include="WinForms.aspx" />
+    <Content Include="LAB\lab.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap\bootstrap.min.css" />
+    <Content Include="bootstrap\bootstrap.min.js" />
+    <Content Include="bootstrap\jquery-3.5.1.slim.min.js" />
+    <Content Include="bootstrap\popper.min.js" />
+    <Content Include="Overview.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADO.aspx.cs">
+      <DependentUpon>ADO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADO.aspx.designer.cs">
+      <DependentUpon>ADO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Basics.aspx.cs">
+      <DependentUpon>Basics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Basics.aspx.designer.cs">
+      <DependentUpon>Basics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console.aspx.cs">
+      <DependentUpon>Console.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console.aspx.designer.cs">
+      <DependentUpon>Console.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lab.aspx.cs">
+      <DependentUpon>Lab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab.aspx.designer.cs">
+      <DependentUpon>Lab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LAB\lab.Master.cs">
+      <DependentUpon>lab.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LAB\lab.Master.designer.cs">
+      <DependentUpon>lab.Master</DependentUpon>
+    </Compile>
+    <Compile Include="LAB\lab1.aspx.cs">
+      <DependentUpon>lab1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LAB\lab1.aspx.designer.cs">
+      <DependentUpon>lab1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LAB\lab2.aspx.cs">
+      <DependentUpon>lab2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LAB\lab2.aspx.designer.cs">
+      <DependentUpon>lab2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LAB\lab3.aspx.cs">
+      <DependentUpon>lab3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LAB\lab3.aspx.designer.cs">
+      <DependentUpon>lab3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LAB\lab4.aspx.cs">
+      <DependentUpon>lab4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LAB\lab4.aspx.designer.cs">
+      <DependentUpon>lab4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LAB\lab5.aspx.cs">
+      <DependentUpon>lab5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LAB\lab5.aspx.designer.cs">
+      <DependentUpon>lab5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LAB\lab6.aspx.cs">
+      <DependentUpon>lab6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LAB\lab6.aspx.designer.cs">
+      <DependentUpon>lab6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LAB\lab7.aspx.cs">
+      <DependentUpon>lab7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LAB\lab7.aspx.designer.cs">
+      <DependentUpon>lab7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LAB\lab8.aspx.cs">
+      <DependentUpon>lab8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LAB\lab8.aspx.designer.cs">
+      <DependentUpon>lab8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OldQuestion.aspx.cs">
+      <DependentUpon>OldQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OldQuestion.aspx.designer.cs">
+      <DependentUpon>OldQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OOP.aspx.cs">
+      <DependentUpon>OOP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OOP.aspx.designer.cs">
+      <DependentUpon>OOP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Overview.aspx.cs">
+      <DependentUpon>Overview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Overview.aspx.designer.cs">
+      <DependentUpon>Overview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Web.aspx.cs">
+      <DependentUpon>Web.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web.aspx.designer.cs">
+      <DependentUpon>Web.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms.aspx.cs">
+      <DependentUpon>WinForms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WinForms.aspx.designer.cs">
+      <DependentUpon>WinForms.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49858</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49858/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
