@@ -74,6 +74,12 @@
     <Content Include="image\OldQuestions\2017.jpg" />
     <Content Include="image\OldQuestions\2017a.jpg" />
     <Content Include="image\OldQuestions\2018.jpg" />
+    <Content Include="image\overview\CLS.png" />
+    <Content Include="image\overview\compilation process.png" />
+    <Content Include="image\overview\csharp.png" />
+    <Content Include="image\overview\CTS.png" />
+    <Content Include="image\overview\framework.png" />
+    <Content Include="image\overview\musical.png" />
     <Content Include="Lab.aspx" />
     <Content Include="LAB\lab1.aspx" />
     <Content Include="LAB\lab2.aspx" />

@@ -37,12 +37,13 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 
     <div class=" p-3 ">
-
         <nav>
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
             <a class="nav-link active" id="nav-syllabus-tab" data-toggle="tab" href="#nav-syllabus" role="tab" aria-controls="nav-syllabus" aria-selected="true">Syllabus</a>
             <a class="nav-link" id="nav-question-tab" data-toggle="tab" href="#nav-question" role="tab" aria-controls="nav-question" aria-selected="false">Question</a>
             <a class="nav-link" id="nav-notes-tab" data-toggle="tab" href="#nav-notes" role="tab" aria-controls="nav-notes" aria-selected="false">Notes</a>
+            <a class="nav-link" id="nav-photos-tab" data-toggle="tab" href="#photos" role="tab" aria-controls="nav-photos" aria-selected="false">Photos</a>
+            <a class="nav-link" id="nav-videos-tab" data-toggle="tab" href="#videos" role="tab" aria-controls="nav-videos" aria-selected="false">Videos</a>
             </div>
         </nav>
             <div class="tab-content" id="nav-tabContent">
@@ -98,7 +99,6 @@
                 </div>
 
                 <div class="tab-pane fade" id="nav-notes" role="tabpanel" aria-labelledby="nav-notes-tab">
-                    <div class="tab-pane fade show active" id="nav-notes" role="tabpanel" aria-labelledby="nav-notes-tab">
                       <div class="p-3 text-justify">
                         <h5 class="text-danger">.NET</h5>
                         <p>It is a framework from Microsoft. (It is not a programming language by itself).</p>
@@ -215,7 +215,7 @@
                           </p> <br />
 
                         <h5 class="text-danger">.NET Framework Architecture</h5>
-                        <img src="img/1_Overview/framework.png" alt=".NET Framework Architecture" class="img-thumbnail border-primary" /><br /><br />
+                        <img src="image/overview/framework.png" alt=".NET Framework Architecture" class="img-thumbnail border-primary" /><br /><br />
               
                         <h6><strong> .NET Languages</strong></h6>
                         <p>These are the programming languages we use to develop our application. We can choose between any languages as per our comfort. All the languages have the full access to .NET framework. However some .NET features are specially design for C#.</p>
@@ -242,7 +242,7 @@
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12">
-                                <img src="img/1_Overview/CLS.png" width="300" class="img-thumbnail border-primary"  />
+                                <img src="image/overview/CLS.png" width="300" class="img-thumbnail border-primary"  />
                             </div>
                         </div>
 
@@ -263,7 +263,7 @@
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12">
-                                <img src="img/1_Overview/CTS.png" class="img-thumbnail border-primary"  />
+                                <img src="image/overview/CTS.png" class="img-thumbnail border-primary"  />
                             </div>
                         </div>
 
@@ -304,7 +304,7 @@
 
                         <h5 class="text-danger">Compilation & Execution Process in .NET Framework</h5>
 
-                          <img src="img/1_Overview/compilation%20process.png" class="img-thumbnail border-primary"  /><br /><br />
+                          <img src="image/overview/compilation%20process.png" class="img-thumbnail border-primary"  /><br /><br />
 
                             <h6> <strong> MSIL (Microsoft Intermediate Language) </strong> </h6>
                             <p>
@@ -343,10 +343,10 @@
 
                           <div class="row">
                               <div class="col-6">
-                                <img src="img/1_Overview/csharp.png" class="img-thumbnail"/><br /><br />
+                                <img src="image/overview/csharp.png" class="img-thumbnail"/><br /><br />
                               </div>
                               <div class="col-6">
-                                <img src="img/1_Overview/musical.png" class="img-thumbnail" />
+                                <img src="image/overview/musical.png" class="img-thumbnail" />
                               </div>
                           </div>
 
@@ -427,8 +427,187 @@
                           </ul>
 
                       </div>
+                </div>
+
+                <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">
+                    <div class="p-3">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="image/overview/DotNet.png" class="img-thumbnail" />
+                            </div>
+
+                        <div class="col-4">
+                            <img src="image/overview/NetFramework.png" class="img-thumbnail" />
+                        </div>
+
+                        <div class="col-4">
+                            <img src="image/overview/garbageCollection.png" class="img-thumbnail" />
+                        </div>
+                        </div>
+                
                     </div>
                 </div>
+
+                <div class="tab-pane fade" id="videos" role="tabpanel" aria-labelledby="videos-tab">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h3>.NET</h3>
+                        </div>
+                    
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="949" height="534" src="https://www.youtube.com/embed/A-3N_bM50HI?list=PLrp1NmQdla-fWpQay8XnwZPM-l73Sb7tv" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="949" height="534" src="https://www.youtube.com/embed/0u9k-kOR3KE?list=PLrp1NmQdla-fWpQay8XnwZPM-l73Sb7tv" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/m9Cwk2MNRWk?list=PLrp1NmQdla-fWpQay8XnwZPM-l73Sb7tv" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <h3>Features of .NET</h3>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/XoLdbcyNvRI?list=PLrp1NmQdla-dHDZ-cy8bsZEZAlYYAnX31" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/4Bujw7rRUaU?list=PLrp1NmQdla-dHDZ-cy8bsZEZAlYYAnX31" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/iVOCzuQSziI?list=PLrp1NmQdla-dHDZ-cy8bsZEZAlYYAnX31" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <h3>.NET Framework Architecture</h3>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/yL3cNP0-tFc?list=PLrp1NmQdla-f7_iNG07WJuASB1PHlnw6j" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="726" height="409" src="https://www.youtube.com/embed/KpkFaivsQ28?list=PLrp1NmQdla-f7_iNG07WJuASB1PHlnw6j" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/KAhfEJB9IqM?list=PLrp1NmQdla-f7_iNG07WJuASB1PHlnw6j" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/MQDgIE_Nb_0?list=PLrp1NmQdla-f7_iNG07WJuASB1PHlnw6j" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/JwbBFmpwO0Q?list=PLrp1NmQdla-f7_iNG07WJuASB1PHlnw6j" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <h3>Compilation and Execution Process in .NET Framework</h3>
+                        </div>
+
+                        <div class="col-lg-4  col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/gaDn-sVLj8Q?list=PLrp1NmQdla-cS0s3Yh5G7f_lNV3XFEAbS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/aSYUZuFu2fQ?list=PLrp1NmQdla-cS0s3Yh5G7f_lNV3XFEAbS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/_gUr7W02LY8?list=PLrp1NmQdla-cS0s3Yh5G7f_lNV3XFEAbS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/6oYcZ-D8Fyw?list=PLrp1NmQdla-cS0s3Yh5G7f_lNV3XFEAbS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="765" height="409" src="https://www.youtube.com/embed/ruf4U9_Rbss?list=PLrp1NmQdla-cS0s3Yh5G7f_lNV3XFEAbS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <h3>IDE</h3>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="725" height="409" src="https://www.youtube.com/embed/S7JlgN0yYPo?list=PLrp1NmQdla-cBVD2SRdtqX2pBhTm7owDe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/w0bUS4PpmHM?list=PLrp1NmQdla-cBVD2SRdtqX2pBhTm7owDe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/eGMxJi_3fJE?list=PLrp1NmQdla-cBVD2SRdtqX2pBhTm7owDe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/amJQ7Xo_awc?list=PLrp1NmQdla-cBVD2SRdtqX2pBhTm7owDe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/7GmDq_DXEF8?list=PLrp1NmQdla-cBVD2SRdtqX2pBhTm7owDe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 p-3">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/en2uFBsH_Bk?list=PLrp1NmQdla-cBVD2SRdtqX2pBhTm7owDe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
     </div>
 </asp:Content>
