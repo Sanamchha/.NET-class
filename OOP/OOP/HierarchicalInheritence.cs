@@ -5,12 +5,12 @@
 //using System.Threading.Tasks;
 
 //namespace OOP
-//{   
+//{
 //    class Base
 //    {
 //        protected int a;
 //        protected int b;
-    
+
 //        public void SetData(int x, int y)
 //        {
 //            a = x;

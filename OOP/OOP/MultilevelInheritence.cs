@@ -5,7 +5,7 @@
 //using System.Threading.Tasks;
 
 //namespace OOP
-//{   
+//{
 //    class Base
 //    {
 //        //Data Member
@@ -42,7 +42,7 @@
 
 //    class MultilevelInheritence
 //    {
-//        public static void main()
+//        public static void Main()
 //        {
 //            Derived2 ob = new Derived2();
 //            ob.SetData(6, 2);

@@ -5,7 +5,7 @@
 //using System.Threading.Tasks;
 
 //namespace OOP
-//{   
+//{
 //    class Complex
 //    {
 //        protected int i;
@@ -13,14 +13,14 @@
 
 //        public Complex() { }
 
-//        public Complex(int x,int y)
+//        public Complex(int x, int y)
 //        {
 //            i = x;
 //            j = y;
 
 //        }
 
-//        public static Complex operator +(Complex c1,Complex c2)
+//        public static Complex operator +(Complex c1, Complex c2)
 //        {
 //            Complex temp = new Complex();
 //            temp.i = c1.i + c2.i;
@@ -40,6 +40,7 @@
 //            Complex ob2 = new Complex(3, 6);
 //            Complex ob3 = new Complex();
 //            ob3 = ob1 + ob2; //operator overloading
+//            ob3.show();
 //        }
 
 //    }
