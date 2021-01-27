@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="ADO.aspx" />
     <Content Include="Basics.aspx" />
+    <Content Include="bootstrap\mystyle.css" />
     <Content Include="Console.aspx" />
     <Content Include="image\basics\12345 loop.png" />
     <Content Include="image\basics\array.png" />
@@ -113,12 +114,15 @@
     <Content Include="LAB\lab6.aspx" />
     <Content Include="LAB\lab7.aspx" />
     <Content Include="LAB\lab8.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="OldQuestion.aspx" />
     <Content Include="OOP.aspx" />
+    <Content Include="registration.aspx" />
     <Content Include="Site1.Master" />
     <Content Include="Web.aspx" />
     <Content Include="WinForms.aspx" />
     <Content Include="LAB\lab.Master" />
+    <Content Include="form.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -132,7 +136,9 @@
     <Content Include="bootstrap\jquery-3.5.1.slim.min.js" />
     <Content Include="bootstrap\popper.min.js" />
     <Content Include="Overview.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ADO.aspx.cs">
@@ -155,6 +161,13 @@
     </Compile>
     <Compile Include="Console.aspx.designer.cs">
       <DependentUpon>Console.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="form.Master.cs">
+      <DependentUpon>form.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="form.Master.designer.cs">
+      <DependentUpon>form.Master</DependentUpon>
     </Compile>
     <Compile Include="Lab.aspx.cs">
       <DependentUpon>Lab.aspx</DependentUpon>
@@ -226,6 +239,13 @@
     <Compile Include="LAB\lab8.aspx.designer.cs">
       <DependentUpon>lab8.aspx</DependentUpon>
     </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="OldQuestion.aspx.cs">
       <DependentUpon>OldQuestion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -248,6 +268,13 @@
       <DependentUpon>Overview.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registration.aspx.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registration.aspx.designer.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
