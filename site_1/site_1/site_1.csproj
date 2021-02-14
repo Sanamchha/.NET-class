@@ -85,12 +85,14 @@
     <Content Include="image\console\7 sum of digits.png" />
     <Content Include="image\console\8 reverse.png" />
     <Content Include="image\console\9 switch.png" />
+    <Content Include="image\lab\calc.PNG" />
     <Content Include="image\lab\lab1.PNG" />
     <Content Include="image\lab\lab2.PNG" />
     <Content Include="image\lab\lab3.PNG" />
     <Content Include="image\lab\lab4.PNG" />
     <Content Include="image\lab\lab5.PNG" />
     <Content Include="image\lab\lab6.PNG" />
+    <Content Include="image\lab\notepad.PNG" />
     <Content Include="image\OldQuestions\2019.jpg" />
     <Content Include="image\OldQuestions\2019_a.png" />
     <Content Include="image\OldQuestions\2015.bmp" />

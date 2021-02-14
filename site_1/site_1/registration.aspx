@@ -110,6 +110,7 @@
 
         <asp:TableRow>
             <asp:TableCell ColumnSpan="2" CssClass="text-center">Already have an account?<a href="login.aspx">login</a></asp:TableCell>
+
         </asp:TableRow>
 
         

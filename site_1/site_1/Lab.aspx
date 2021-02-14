@@ -57,7 +57,7 @@
             <div class="card-header">Lab 3</div>
                 <div class="card-body">
                     <a href="LAB/lab3.aspx" target="_blank">
-                        <img src="image/lab/lab3.PNG"  class="img-thumbnail"/>
+                        <img src="image/lab/calc.PNG"  class="img-thumbnail"/>
                     </a>
                 </div>
         </div>
@@ -66,7 +66,7 @@
             <div class="card-header">Lab 4</div>
                 <div class="card-body">
                     <a href="LAB/lab4.aspx" target="_blank">
-                        <img src="image/lab/lab4.PNG"  class="img-thumbnail"/>
+                        <img src="image/lab/notepad.PNG"  class="img-thumbnail"/>
                     </a>
                 </div>
         </div>
