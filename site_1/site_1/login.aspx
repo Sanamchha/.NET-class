@@ -3,6 +3,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Table ID="Table1" runat="server" CellPadding="10" CellSpacing="10" CssClass="RegistrationCentered">
+
+        <asp:TableRow>
+            <asp:TableCell>
+                <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
+            </asp:TableCell>
+        </asp:TableRow>
         <asp:TableRow>
             <asp:TableCell ColumnSpan="2" CssClass="text-center text-success fw-bold"><h1>Login</h1></asp:TableCell>
         </asp:TableRow>
